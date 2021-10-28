@@ -61,8 +61,7 @@ class Question {
     // Add a mousepressed action when the button is clicked Display the this.message
   
     this.button.mousePressed(()=>{
-      this.message.html(“Thank You, Your Answer Has Been Submitted”);
-    this.message.position(150,120);
+    
       this.title.hide();
       this.input1.hide();
       this.input2.hide();
