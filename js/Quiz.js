@@ -2,11 +2,9 @@ class Quiz {
   constructor(){}
 
   start(){
-   question = new Question();
-   question.display();
-
-
-
+    
+      question = new Question()
+      question.display();
     
   }
 
